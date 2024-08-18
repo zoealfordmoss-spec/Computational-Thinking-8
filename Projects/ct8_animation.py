@@ -1,14 +1,24 @@
 import codesters
+from manager import Manager
 
-s1 = codesters.Sprite('doggo',-200,-200)
-s1.set_size(.1)
+cat = codesters.Sprite('cat',-200,-200)
+cat.set_size(.5)
 
-for i in range(100):
-    s1.say("test 123",1)
-    s1.forward(10)
-    stage.wait(1)
-# answer = s1.ask("What is your name?")
+dog = codesters.Sprite('doggo', 200, 0)
+dog.set_size(.1)
 
+cat.say("Meow",1)
 
-print("Hello Codesters")
-# print(answer)
+Manager.root.after(1000, cat.say("there are 10 types of people",3))
+Manager.root.after(5000, dog.say("bark!",1))
+# cat.say("",3)
+# dog.say("",7)
+
+# cat.say("there are 10 types of people",3)
+# time.sleep(5)
+# cat.glide_to(-200, 150)
+
+# dog.say("bark!",1)
+
+# cat.say("Those who understand binary and those who dont!",2)
+# dog.say("haha",1)
