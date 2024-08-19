@@ -12,5 +12,16 @@
     "cSpell.words": [
         "codesters",
         "stage"
-    ]
+    ],
+    "python.autoComplete.extraPaths": [
+        "/workspaces/Computational-Thinking-8/libraries/codesters"
+    ],
+    "python.terminal.focusAfterLaunch": true,
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.extraPaths": [
+        "/workspaces/Computational-Thinking-8/libraries/codesters"
+    ],
+    "python.analysis.include": [
+        "/workspaces/Computational-Thinking-8/libraries/codesters"
+    ],
 }
