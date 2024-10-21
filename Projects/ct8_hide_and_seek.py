@@ -15,7 +15,7 @@ def check_distance():
         s2.show()
         s1.say("Found you!",3)
     else:
-        s1.say(f"The ghost is {math.floor(distance)} steps away")
+        s1.say(f"The player is {math.floor(distance)} steps away")
 
 
 
