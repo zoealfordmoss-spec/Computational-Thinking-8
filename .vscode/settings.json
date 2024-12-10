@@ -6,9 +6,9 @@
     },
     "files.exclude": {
         "**/.*": true,
-        "libraries": true,
-        "requirements.txt": true,
-        "Projects/__pycache__": true,
+        "**/libraries": true,
+        "**/Projects/__pycache__": true,
+        "requirements.txt": true
     },
     "cSpell.words": [
         "codesters",
