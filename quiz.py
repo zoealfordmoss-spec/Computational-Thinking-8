@@ -26,7 +26,7 @@ else:
 
 answer = input("if you could choose what job you want when you grow up would you rather A be a doctor, or B a reporter?")
 if answer == "A" or answer == "a":
-	night_person += 1
+	night_person += 1 
 elif answer == "B" or answer == "b":
 	day_person   += 1
 else:
@@ -40,7 +40,8 @@ elif answer == "B" or answer == "b":
 
 
 answer = input("whats your favorite season A winter, or B summer?")
-if answer == "A" or answer == "a":
+if answer == "A" or answer == "a" and night_person > 1:
+	print("are you sure you like winter?")
 	night_person += 1
 elif answer == "B" or answer == "b":
 	day_person += 1
