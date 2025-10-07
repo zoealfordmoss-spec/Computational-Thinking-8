@@ -41,7 +41,7 @@ elif answer == "B" or answer == "b":
 
 answer = input("whats your favorite season A winter, or B summer?")
 if answer == "A" or answer == "a" and night_person > 1:
-	print("are you sure you like winter?")
+	print("are you sure you like winter")
 	night_person += 1
 elif answer == "B" or answer == "b":
 	day_person += 1
