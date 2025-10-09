@@ -52,20 +52,27 @@ window.tracer(0)
 ######################################################################
 # https://en.wikipedia.org/wiki/Web_colors#Extended_colors
 # Section 2 - Your code
-set_background("fall")
+set_background("sunset") #I added a sunset because I love taking pictures of sunsets
 
 draw_rectangle("lightskyblue", 100, 100, 200, 200)
 draw_rectangle("aliceblue", -100, 100, 200, 200)
 draw_rectangle("royalblue", 100, -100, 200, 200)
 draw_rectangle("darkblue", -100, -100, 200, 200)
 
-s1 = create_sprite("cardinal", 100, 100)
-s2 = create_sprite("cardinal", -100, -100)
+s1 = create_sprite("black_lab", 100, 100) #I added a dog because my grandparents have a black lab
+s2 = create_sprite("pink_basketball", -100, -100)
+s3 = create_sprite("starbucks", 100, -100)
+s4 = create_sprite("strawberry_icecream", -100, 100)
 
 message1 = create_sprite("alien",-200,200)
-message1.color("red")
-message1.write("Your Name",font = ("Arial", 40, "normal"))
+message1.color("darkblue")
+message1.write("Zoe Alford-Moss",font = ("Arial", 40, "normal"))
 message1.hideturtle()
+
+message2 = create_sprite("turtle", -270, -250)
+message2.color("darkblue")
+message2.write("Life's always better after you eat",font = ("Arial", 25, "normal")) #I used that quote because Its something my dad always says.
+message2.hideturtle()
 
 
 ######################################################################
